@@ -1,0 +1,37 @@
+.note-details {
+    max-width: 100rem;
+    margin: 3rem auto;
+    padding: 2rem;
+    text-align: center;
+    color: var(--color-primary-50);
+    background-color: var(--color-primary-800);
+    border-radius: 24px;
+    animation: fade-slide-in 1s ease-out forwards;
+
+    & h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        color: #ffffff;
+    }
+
+    & nav {
+        margin: 1rem 0 2rem 0;
+    }
+
+    & a {
+        color: var(--color-secondary-50);
+        text-decoration: none;
+        padding: 1rem;
+        font-size: 1.8rem;
+
+        &:hover {
+            color: var( --color-secondary-300);
+        }
+    }
+}
+
+.note-details-content {
+    color: #fff;
+    font-size: 1.8rem;
+    white-space: pre-wrap;
+}
